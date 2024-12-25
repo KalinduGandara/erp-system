@@ -1,0 +1,69 @@
+# Binary files and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+*.out
+
+# Test binary, built with go test -c
+*.test
+
+# Database files
+*.db
+data/
+*.sqlite
+*.sqlite3
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Build output directory
+build/
+dist/
+
+# Debug files
+debug/
+
+# Project-specific ignores
+erp.db
+data/erp.db
+
+# Go specific
+go.work
+go.work.sum
+
+# Operating System specific
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*~.nib

@@ -1,0 +1,14 @@
+app:
+  name: "ERP System"
+  version: "1.0.0"
+
+database:
+  path: "data/erp.db"
+
+auth:
+  jwt_secret: "your-secret-key"
+  token_expiry: 24h
+
+logging:
+  level: "debug"
+  output: "console"
